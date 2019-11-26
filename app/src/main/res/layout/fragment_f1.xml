@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".F1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am F1"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/f1_lottery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    <Button
+        android:id="@+id/f1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lottery"
+        />
+    <Button
+        android:id="@+id/f1_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test2"
+        />
+    <Button
+        android:id="@+id/f1_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test3"
+        />
+
+</LinearLayout>

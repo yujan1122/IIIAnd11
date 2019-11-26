@@ -24,24 +24,28 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="test1"
+            android:onClick="toF1"
             />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="test2"
+            android:onClick="toF2"
             />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="test3"
+            android:onClick="toF3"
             />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="test4"
+            android:onClick="toF4"
             />
 
     </LinearLayout>
